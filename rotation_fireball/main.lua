@@ -37,7 +37,7 @@ local spells =
 -- Function to render the menu
 on_render_menu (function ()
     -- Create the main menu tree for the sorcerer
-    if not menu.main_tree:push("Sorcerer: Base") then
+    if not menu.main_tree:push("Fireball Sorcerer") then
         return;
     end;
 
@@ -387,4 +387,4 @@ on_render(function ()
 end);
 
 -- Print to console that the Lua Plugin for Sorcerer Base is loaded
-console.print("Lua Plugin - Sorcerer Base - Version 1.5");
+console.print("Lua Plugin - Fireball Sorcerer - Version 1.5");
